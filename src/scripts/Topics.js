@@ -5,11 +5,11 @@ import { getTopics } from "./dataAccess.js";
 export const Topics = () => {
     const topics = getTopics()
 
-    let html = '<ul id="topics">'
+    let html = '<div id="topics">'
     const listOfTopics = topics.map(topic => {
-        return `<li>
+        return `<div>
         <input type="radio" name="topic" value="${topic.id}" /> ${topic.name}
-        </li>`
+        </div>`
     })
     html += listOfTopics.join("")
     return html

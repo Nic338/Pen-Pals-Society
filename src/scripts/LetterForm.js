@@ -4,7 +4,7 @@ import { Recipients } from "./Recipients.js";
 import { Topics } from "./Topics.js";
 export const LetterForm = () => {
     let html = `
-    <div class="field>
+    <div class="field">
     <label class="label" for="authorChoice">Author</label>
     ${Authors()}
     </div>
@@ -12,11 +12,11 @@ export const LetterForm = () => {
         <label class="label" for="letterBody">Letter</label>
         <textarea id="letterBody" rows="15" cols="85"></textarea>
     </div>
-    <div class="field>
+    <div class="field">
     <label class="label" for="topicChoice">Topics</label>
     ${Topics()}
     </div>
-    <div class="field>
+    <div class="field">
     <label class="label" for="recipientChoice">Recipient</label>
     ${Recipients()}
     </div>

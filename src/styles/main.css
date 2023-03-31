@@ -2,6 +2,9 @@
 @import "./letterform.css";
 /*Typography
 --------------------------------------------------------------*/
+html{
+	background-color: burlywood;
+}
 body,
 button,
 input,
@@ -14,7 +17,46 @@ textarea {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+	font-family: "Patua One", serif;
+	letter-spacing: 2px;
+	padding: .3em;
+	margin-left: 3em;
+}
+#submitLetter{
+	padding:12px 28px;
+	color: red;
+}
+.button:hover{
+	transition-duration: .6s;
+	background-color: rgb(67, 148, 148);
+	color: white;
+}
+.label{
+	margin: .3em;
+	padding: .3em;
+	font-size: x-large;
+	display: flex;
+	flex-direction: column;
 }
 
+#topics{
+	display: flex;
+	margin: .3em;
+	padding: .2em;
+	justify-content: space-evenly;
+	font-size: 21px;
+	font-weight: 600;
+}
+#letter{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: 85%;
+	justify-content: space-evenly;
+	background-color: aquamarine;
+	font-family: "Comfortaa", Arial, sans-serif;
+	line-height: 1.5;
+	padding: 1em;
+	border: gray dotted;
+	max-width: 600px;
+}

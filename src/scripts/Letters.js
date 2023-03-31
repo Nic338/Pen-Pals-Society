@@ -29,7 +29,9 @@ export const Letters = () => {
         <div id="letter">
             Dear ${findRecip.name},
             <br>
+            <br>
             ${letter.message}
+            <br>
             <br>
             Sincerely,
             <div class="authorName">
@@ -37,6 +39,7 @@ export const Letters = () => {
 
                 (${authEmail})
                 </div>
+                <br>
                 <div id="topicName">
                 ${findTopic.name}
                 </div>
