@@ -1,0 +1,114 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "Walter Griswold",
+      "email": "wizzwold29@booknerds.com"
+    },
+    {
+      "id": 2,
+      "name": "Mary Haddalitlam",
+      "email": "whitefleece26@hotmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Grumble Hatchbucket",
+      "email": "mylittleprincess149@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Clarence Festerwind",
+      "email": "clarinseyourplateoff@hotmail.org"
+    },
+    {
+      "id": 5,
+      "name": "Kate Echidna",
+      "email": "ilovemarsupials88@wildlifehabitation.org"
+    },
+    {
+      "id": 6,
+      "name": "Jimothy Clickbang",
+      "email": "xxhalogodxx78@aol.com"
+    }
+  ],
+  "recipients": [
+    {
+      "id": 1,
+      "name": "Walter Griswold",
+      "email": "wizzwold29@booknerds.com"
+    },
+    {
+      "id": 2,
+      "name": "Mary Haddalitlam",
+      "email": "whitefleece26@hotmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Grumble Hatchbucket",
+      "email": "mylittleprincess149@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Clarence Festerwind",
+      "email": "clarinseyourplateoff@hotmail.org"
+    },
+    {
+      "id": 5,
+      "name": "Kate Echidna",
+      "email": "ilovemarsupials88@wildlifehabitation.org"
+    },
+    {
+      "id": 6,
+      "name": "Jimothy Clickbang",
+      "email": "xxhalogodxx78@aol.com"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Friendly"
+    },
+    {
+      "id": 3,
+      "name": "Family"
+    },
+    {
+      "id": 4,
+      "name": "Congratulations"
+    },
+    {
+      "id": 5,
+      "name": "Condolences"
+    }
+  ],
+  "letters": [
+    {
+      "authorId": 6,
+      "recipientId": 1,
+      "topicId": 1,
+      "message": "Hey Walter, nice face idiot",
+      "date": 1680204088943,
+      "id": 1
+    },
+    {
+      "authorId": 6,
+      "recipientId": 1,
+      "topicId": 1,
+      "message": "Hey Walter, nice face idiot",
+      "date": 1680204149091,
+      "id": 2
+    },
+    {
+      "authorId": 1,
+      "recipientId": 6,
+      "topicId": 1,
+      "message": "Suck it Jimmy",
+      "date": 1680204765394,
+      "id": 3
+    }
+  ]
+}
